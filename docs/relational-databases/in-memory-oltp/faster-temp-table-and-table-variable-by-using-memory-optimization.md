@@ -152,7 +152,7 @@ CREATE TABLE dbo.soSessionC
 
     SpidFilter  SMALLINT    NOT NULL   DEFAULT (@@spid),  
 
-    INDEX ix_SpidFiler NONCLUSTERED (SpidFilter),  
+    INDEX ix_SpidFilter NONCLUSTERED (SpidFilter),  
     --INDEX ix_SpidFilter HASH  
     --    (SpidFilter) WITH (BUCKET_COUNT = 64),  
         
